@@ -1,0 +1,8 @@
+@bin bin/whiptail
+include/newt.h
+@static-lib lib/libnewt.a
+@so lib/libnewt.so
+@lib lib/libnewt.so.${LIBnewt_VERSION}
+@bin lib/libnewt.so.0.52.25
+lib/pkgconfig/libnewt.pc
+@man man/man1/whiptail.1
